@@ -64,7 +64,7 @@ nav:hover {
   font-size: 1.2rem;
   padding: 5px 10px;
   border-radius: 5px;
-  transition: 1s;
+  transition: 0.7s;
 }
 
 .navbar .nav-items .btn {
@@ -73,17 +73,17 @@ nav:hover {
   font-size: 1.2rem;
   padding: 5px 10px;
   border-radius: 5px;
-  transition: 1s;
+  transition: 0.7s;
 }
 
 .navbar .nav-items .btn:hover {
   cursor: pointer;
-  background-color: #636363;
+  background-color: rgba(99, 99, 99, 0.6);
   color: #fff;
 }
 
 .navbar .nav-items .nav-item:hover {
-  background-color: #636363;
+  background-color: rgba(99, 99, 99, 0.6);
   color: #fff;
 }
 
@@ -122,6 +122,7 @@ nav:hover {
   border: none;
   border-radius: 10px;
   margin-bottom: 15px;
+  transition: 0.3s;
 }
 
 .showcase-content .showcase-btn:hover {
