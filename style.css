@@ -19,37 +19,19 @@ li {
   list-style: none;
 }
 
-hr {
-  width: 90%;
-  height: 2px;
-  border-radius: 5px;
-  background-color: #000;
-  margin: auto;
-}
-
 textarea:focus,
 input:focus {
   outline: none;
 }
 
-.showcase {
-  background: url(img/img1.jpeg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  height: 100vh;
-}
-
 /* Navbar */
 .nav {
-  position: relative;
+  position: fixed;
   height: 80px;
   width: 100%;
   transition: 0.5s;
-}
-
-nav:hover {
   background-color: #fff;
-  opacity: 0.7;
+  z-index: 1;
 }
 
 .navbar {
@@ -57,7 +39,7 @@ nav:hover {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 0px 150px 0px;
+  padding: 0px 100px 0px;
 }
 
 .navbar .navbar-logo {
@@ -66,9 +48,9 @@ nav:hover {
 
 .navbar .nav-items {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
-  width: 600px;
+  width: 900px;
   height: 80%;
 }
 
@@ -76,7 +58,7 @@ nav:hover {
   font-size: 1.2rem;
   padding: 5px 10px;
   border-radius: 5px;
-  transition: 0.7s;
+  transition: 0.5s;
 }
 
 .navbar .nav-items .btn {
@@ -85,24 +67,44 @@ nav:hover {
   font-size: 1.2rem;
   padding: 5px 10px;
   border-radius: 5px;
+  transition: 0.5s;
+}
+
+.navbar .nav-items .challenge-btn {
+  border: none;
+  font-size: 1.2rem;
+  padding: 5px 10px;
+  border-radius: 5px;
   transition: 0.7s;
+  background-color: red;
+  color: #fff;
 }
 
 .navbar .nav-items .btn:hover {
   cursor: pointer;
-  background-color: rgba(0, 0, 0, 0.9);
-  color: #fff;
+  color: #eebb4d;
 }
 
 .navbar .nav-items .nav-item:hover {
-  background-color: rgba(0, 0, 0, 0.9);
-  color: #fff;
+  color: #eebb4d;
+}
+
+.navbar .nav-items .challenge-btn:hover {
+  cursor: pointer;
+  transform: scale(0.95);
 }
 
 /* Showcase */
 
-.showcase-content {
-  margin-top: 200px;
+.showcase {
+  background: url(img/img1.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+}
+.showcase .showcase-content {
+  position: relative;
+  top: 300px;
   padding-left: 150px;
   color: #f1f1f1;
   width: 100%;
