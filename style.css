@@ -33,7 +33,7 @@ input:focus {
 }
 
 .showcase {
-  background: url(/img/img1.jpeg);
+  background: url(img/img1.jpeg);
   background-repeat: no-repeat;
   background-size: cover;
   height: 100vh;
