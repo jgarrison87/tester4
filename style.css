@@ -188,7 +188,7 @@ input:focus {
   overflow: hidden;
   width: 700px;
   height: 350px;
-  border: 2px solid #fff;
+  box-shadow: 5px 5px 10px #eebb4d;
   border-radius: 5px;
 }
 
