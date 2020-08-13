@@ -195,7 +195,7 @@ input:focus {
   width: 500%;
   margin: 0;
   left: 0;
-  animation: 30s slider infinite;
+  animation: 15s slider infinite;
 }
 
 .slider-container .slider img {
